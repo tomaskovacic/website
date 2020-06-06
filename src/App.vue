@@ -18,15 +18,18 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 50px;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #e61e49;
+  text-decoration: none;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+
+
+#nav :hover {
+  text-decoration: underline;
 }
 </style>
